@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Рестаран</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <i class="fas fa-glass-cheers fa-lg"></i>
+        </span>
+        <h1>РЕСТАРАН</h1>
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="fas fa-cart-plus"></i>
+          </span>
+          <div class="cart-items">0</div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- hero -->
+    <header class="hero">
+      <div class="banner">
+        <h1 class="banner-title">У НАС ВКУСНО</h1>
+        <a class="banner-btn" href="#menu-list">МЕНЮ</a>
+      </div>
+    </header>
+    <!-- end of hero -->
+    <!-- products -->
+    <section id="menu-list" class="products">
+      <div class="section-title">
+        <h2>меню</h2>
+      </div>
+      <div class="products-center">
+        <!-- single product -->
+
+        <!-- end of single product -->
+      </div>
+    </section>
+    <!-- end of products -->
+    <!-- cart -->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fas fa-window-close"></i>
+        </span>
+        <h2>ваш заказ</h2>
+        <div class="cart-content">
+          <!-- cart item -->
+
+          <!-- end of cart item -->
+        </div>
+        <div class="cart-footer">
+          <h3>
+            итого : <i class="fas fa-ruble-sign med"></i>
+            <span class="cart-total">0</span>
+          </h3>
+          <button class="clear-cart banner-btn">отменить заказ</button>
+        </div>
+      </div>
+    </div>
+    <!-- end of cart -->
+    <!-- contentful -->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <!-- app js -->
+    <script src="app.js"></script>
+  </body>
+</html>
