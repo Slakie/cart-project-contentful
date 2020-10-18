@@ -1,6 +1,6 @@
 const client = contentful.createClient({
   space: 'nj87b59bh3ri',
-  accessToken: process.env.ACCESS_TOKEN,
+  accessToken: '3CyqXr8ZB4Gs690fIcu0rid9OUHe1xezNZd-nb66Jpo',
 });
 
 // variables
